@@ -2,7 +2,6 @@
   
   .navbar {
     opacity: 70%;
-    position:sticky ;
       box-shadow: 2px 2px 5px #000;
       background: #7F7FD5;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17,7 +16,7 @@
         background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    padding-bottom: 1px;
       }
 
       .contenedor{
@@ -29,7 +28,41 @@
         align-content: center;
       }
 
-      .contacto{
-        margin: 10px;
+      
+.contenedor{
+  padding: 60px 0;
+  width:90% ;
+  margin: auto;
+  overflow: hidden;
+}
 
-      }
+.contacto{
+  color:black;
+  text-align: center;
+
+
+}
+
+.container {
+  margin: 40px auto;
+  padding: 10px;
+
+
+}
+
+input, textarea {
+  width: 110%;
+  padding: 10px;
+  border: none;
+
+}
+
+.botton {
+  width: 30%;
+  padding: 10px;
+  background-color: rgb(123, 123, 255);
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  color: black;
+}

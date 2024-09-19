@@ -1,5 +1,5 @@
 body{
-    background: #f8f9f9;
+    background: #d8d8d8;
     background-attachment: fixed;
     font-Family: Arial;
   }
@@ -36,18 +36,24 @@ body{
         box-shadow: 0 2.5px 10px black;
     }
 
+    .la{
+      border-radius: 1rem;
+      box-shadow: 0 10px 15px black;
+    }
+
     .galeria{
         margin-bottom: 3%;
         display: flex;
         width: 70%;
         height: 450px;
+        gap: 1rem;
     }
 
     .galeria img{
         width: 0px;
         flex-grow: 1;
         object-fit: cover;
-        filter: brightness(80%);
+        filter: brightness(50%);
         transition: 1.5s;
     }
 
