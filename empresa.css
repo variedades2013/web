@@ -86,8 +86,8 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
 
   .car5{
     position: relative;
-    width: 230px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
   }
 
   .car5 div{
@@ -126,8 +126,8 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
   }
 
   .hora{
-    display: flex;
-    width: 95%;
+    margin: 2%;
+    width: 50%;
   }
 
 
